@@ -1,0 +1,47 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+        div::first-letter
+        {
+            color: blue;
+            font-size:100px;
+        }
+        div::first-line
+        {
+            color:brown;
+        }
+        div::selection
+        {
+            color:white;
+            background-color: blueviolet;
+        }
+        div::before
+        {
+            content: 'TOPS TECHNOLOGY';
+        }
+        div::after
+        {
+            content:'tops technology';  
+        }
+        div::marker
+        {
+            color:chocolate;
+        }                  
+        </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quidem quam reiciendis, vitae quia eum ad est quod ipsum architecto qui dolore soluta iure tempora eveniet ut nostrum, earum consectetur?
+    </div>
+    <ul>
+        <li>home</li>
+        <li>house</li>
+        <li>flat</li>
+    </ul>
+</body>
+</html>
